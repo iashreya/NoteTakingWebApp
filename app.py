@@ -40,7 +40,7 @@ def submitted():
 			os.rename("temp.txt", "notes.txt")
 			
 		else:
-			print("Text is None")
+			print("Text is Nonee")
 			
 		return render_template('submitted.html')
 	
